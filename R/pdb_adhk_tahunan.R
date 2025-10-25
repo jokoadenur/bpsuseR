@@ -3,7 +3,7 @@
 #' Dataset ini berisi nilai Produk Domestik Bruto (PDB) atas dasar harga konstan (ADHK)
 #' dari tahun 2010 hingga 2024 (dalam miliar rupiah) dalam bentuk deret waktu tahunan.
 #'
-#' @format Objek time series (\code{ts}) dengan frekuensi tahunan (2010–2024).
+#' @format Objek time series (\code{ts}) frekuensi tahunan (2010–2024).
 #' @source Badan Pusat Statistik (BPS)
 #' @examples
 #' data(pdb_adhk_tahunan)

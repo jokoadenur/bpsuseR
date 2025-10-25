@@ -1,4 +1,4 @@
-#' Dataset PDB ADHK Triwulanan (2010Q1 - 2025Q2)
+#' Dataset PDB ADHK Triwulanan (2010Q1-2025Q2)
 #'
 #' Data ini berisi nilai Produk Domestik Bruto (ADHK) Triwulanan
 #' dalam miliar rupiah dari Triwulan I 2010 hingga Triwulan II 2025.
@@ -7,5 +7,6 @@
 #' @source Badan Pusat Statistik (BPS)
 #' @examples
 #' data("pdb_adhk_triwulanan")
-#' plot(pdb_adhk_triwulanan)
+#' plot(pdb_adhk_triwulanan, main = "PDB ADHK Triwulanan Indonesia (2010–2025)",
+#'      ylab = "Miliar Rupiah", xlab = "Tahun")
 "pdb_adhk_triwulanan"
