@@ -31,8 +31,8 @@ To analyse macro socio economic dataset, use the ex. `pdb_adhk_triwulanan` funct
 
 ```R
 data(pdb_adhk_triwulanan) #or
-pdb_adhk_triwulanan #press Enter
-mydata <- pdb_adhk_tahunan
+pdb_adhk_triwulanan #press Run in R Studio or Ctrl + Enter
+mydata <- pdb_adhk_tahunan #press Run in R Studio or Ctrl + Enter
 ```
 ## List of Dataset
 
