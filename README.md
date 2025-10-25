@@ -1,7 +1,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![CRAN Version](https://img.shields.io/badge/CRAN-7.3.2-brightgreen)
 ![Open Issues](https://img.shields.io/badge/open%20issues-0-brightgreen)
-<img width="500" height="500" alt="package bpsuseR" src="https://github.com/user-attachments/assets/7e8656c1-519c-4266-bd09-493e3a33ff80" />
+<p align="center"><img width="500" height="500" alt="package bpsuseR" src="https://github.com/user-attachments/assets/7e8656c1-519c-4266-bd09-493e3a33ff80" /></p>
 
 # bpsuseR
 
