@@ -5,7 +5,7 @@
 \alias{pdb_adhk_tahunan}
 \title{Produk Domestik Bruto (ADHK) Tahunan Indonesia, 2010–2024}
 \format{
-Objek time series (\code{ts}) dengan frekuensi tahunan (2010–2024).
+Objek time series (\code{ts}) frekuensi tahunan (2010–2024).
 }
 \source{
 Badan Pusat Statistik (BPS)

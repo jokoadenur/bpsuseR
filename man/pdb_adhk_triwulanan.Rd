@@ -3,7 +3,7 @@
 \docType{data}
 \name{pdb_adhk_triwulanan}
 \alias{pdb_adhk_triwulanan}
-\title{Dataset PDB ADHK Triwulanan (2010Q1 - 2025Q2)}
+\title{Dataset PDB ADHK Triwulanan (2010Q1-2025Q2)}
 \format{
 Objek time series dengan 62 observasi dan frekuensi triwulanan (4).
 }
@@ -19,6 +19,7 @@ dalam miliar rupiah dari Triwulan I 2010 hingga Triwulan II 2025.
 }
 \examples{
 data("pdb_adhk_triwulanan")
-plot(pdb_adhk_triwulanan)
+plot(pdb_adhk_triwulanan, main = "PDB ADHK Triwulanan Indonesia (2010–2025)",
+     ylab = "Miliar Rupiah", xlab = "Tahun")
 }
 \keyword{datasets}
