@@ -14,4 +14,4 @@
 #'   indeks_pembangunan_manusia, main = "Indeks Pembangunan Manusia Indonesia (2010–2024)",
 #'   ylab = "Persen (%)", xlab = "Tahun"
 #' )
-"tingkat_pengangguran_terbuka"
+"indeks_pembangunan_manusia"
