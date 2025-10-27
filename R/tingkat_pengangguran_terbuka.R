@@ -9,7 +9,7 @@
 #' @source Badan Pusat Statistik (BPS)
 #'
 #' @examples
-#' data("tingkat_pengangguran_terbuka")
+#' tingkat_pengangguran_terbuka <- tingkat_pengangguran_terbuka
 #' plot(
 #'   tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005–2025)",
 #'   ylab = "Persen (%)", xlab = "Tahun"

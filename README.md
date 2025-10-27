@@ -47,5 +47,6 @@ plot(
 ### PDB/GDP
 - Produk Domestik Bruto (PDB) Triwulanan dalam miliar rupiah (Quarterly GDP)
 - PDB Tahunan dalam miliar rupiah (Yearly GDP)
+- Tingkat Pengangguran Terbuka dalam persen (semi-Annual unemployment rate)
 
 With `bpsuseR`, accessing and analyzing official statistics from BPS becomes easier and more efficient. Happy analyzing!

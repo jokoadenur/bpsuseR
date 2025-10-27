@@ -18,7 +18,7 @@ Dataset ini berisi nilai Produk Domestik Bruto (PDB) atas dasar harga konstan (A
 dari tahun 2010 hingga 2024 (dalam miliar rupiah) dalam bentuk deret waktu tahunan.
 }
 \examples{
-data(pdb_adhk_tahunan)
+pdb_adhk_tahunan <- pdb_adhk_tahunan
 plot(pdb_adhk_tahunan, main = "PDB ADHK Tahunan Indonesia (2010–2024)",
      ylab = "Miliar Rupiah", xlab = "Tahun")
 }
