@@ -16,7 +16,7 @@ indeks_ketimpangan_gender
 }
 \description{
 Data ini berisi Indeks Ketimpangan Gender (IKG) Indonesia yang dirilis tahunan
-oleh Badan Pusat Statistik (BPS), dalam satuan (indeks). IKG adalah pengganti ukuran Indeks Pemberdayaan Gender
+oleh Badan Pusat Statistik (BPS). IKG adalah pengganti ukuran Indeks Pemberdayaan Gender
 }
 \examples{
 indeks_ketimpangan_gender <- indeks_ketimpangan_gender
