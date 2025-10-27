@@ -1,4 +1,4 @@
-#' Dataset Indeks Pembangunan Manusia (2010–2024) dengan Metode Terbaru
+#' Dataset Indeks Pembangunan Manusia (2010-2024) dengan Metode Terbaru
 #'
 #' Data ini berisi Indeks Pembangunan Manusia (IPM) Indonesia yang dirilis tahunan
 #' oleh Badan Pusat Statistik (BPS), dalam satuan persen (%). IPM ini menggunakan metode baru dan telah disesuaikan dengan angka Umur Harapan Hidup Hasil Long Form SP2020

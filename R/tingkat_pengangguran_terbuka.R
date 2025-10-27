@@ -1,4 +1,4 @@
-#' Dataset Tingkat Pengangguran Terbuka (2005–2025)
+#' Dataset Tingkat Pengangguran Terbuka (2005-2025)
 #'
 #' Data ini berisi Tingkat Pengangguran Terbuka (TPT) Indonesia yang dirilis dua kali per tahun (Februari dan Agustus)
 #' oleh Badan Pusat Statistik (BPS), dalam satuan persen (%).
@@ -11,7 +11,7 @@
 #' @examples
 #' tingkat_pengangguran_terbuka <- tingkat_pengangguran_terbuka
 #' plot(
-#'   tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005–2025)",
+#'   tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005-2025)",
 #'   ylab = "Persen (%)", xlab = "Tahun"
 #' )
 "tingkat_pengangguran_terbuka"
