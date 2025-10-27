@@ -15,9 +15,8 @@ Badan Pusat Statistik (BPS)
 indeks_ketimpangan_gender
 }
 \description{
-Indeks Ketimpangan Gender (IKG) adalah pengganti dari ukuran Indeks Pemberdayaan Gender (IDG) dan dirilis tahunan
-oleh Badan Pusat Statistik (BPS). Dimensi ukuran ini terdiri atas Kesehatan Reproduksi, Pemberdayaan Perempuan, dan Partisipasi Tenaga Kerja
-IKG = 0 berarti tidak ada ketimpangan gender dan IKG = 1 ketimpangan gender sangat tinggi
+Data ini berisi Indeks Ketimpangan Gender (IKG) Indonesia yang dirilis tahunan
+oleh Badan Pusat Statistik (BPS), dalam satuan (indeks). IKG adalah pengganti ukuran Indeks Pemberdayaan Gender
 }
 \examples{
 indeks_ketimpangan_gender <- indeks_ketimpangan_gender

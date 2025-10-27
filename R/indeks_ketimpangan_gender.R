@@ -1,8 +1,7 @@
 #' Dataset Indeks Ketimpangan Gender (2018-2024)
 #'
-#' Indeks Ketimpangan Gender (IKG) adalah pengganti dari ukuran Indeks Pemberdayaan Gender (IDG) dan dirilis tahunan
-#' oleh Badan Pusat Statistik (BPS). Dimensi ukuran ini terdiri atas Kesehatan Reproduksi, Pemberdayaan Perempuan, dan Partisipasi Tenaga Kerja
-#' IKG = 0 berarti tidak ada ketimpangan gender dan IKG = 1 ketimpangan gender sangat tinggi
+#' Data ini berisi Indeks Ketimpangan Gender (IKG) Indonesia yang dirilis tahunan
+#' oleh Badan Pusat Statistik (BPS), dalam satuan (indeks). IKG adalah pengganti ukuran Indeks Pemberdayaan Gender
 #'
 #' @format Objek time series dengan 7 observasi dan frekuensi tahunan (`frequency = 1`).
 #' Nilai mulai dari Tahun 2018 hingga Tahun 2024.

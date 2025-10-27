@@ -11,7 +11,7 @@
 #' @examples
 #' indeks_pembangunan_manusia <- indeks_pembangunan_manusia
 #' plot(
-#'   indeks_pembangunan_manusia, main = "Indeks Pembangunan Manusia Indonesia (2010–2024)",
+#'   indeks_pembangunan_manusia, main = "Indeks Pembangunan Manusia Indonesia (2010-2024)",
 #'   ylab = "Persen (%)", xlab = "Tahun"
 #' )
 "indeks_pembangunan_manusia"
