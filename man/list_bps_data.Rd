@@ -2,10 +2,18 @@
 % Please edit documentation in R/list_bps_data.R
 \name{list_bps_data}
 \alias{list_bps_data}
-\title{Menampilkan daftar dataset yang tersedia dalam package bpsuseR}
+\title{Menampilkan daftar dataset yang tersedia dalam paket bpsuseR}
 \usage{
 list_bps_data()
 }
+\value{
+Data frame dengan dua kolom: \code{Item} (nama dataset) dan \code{Title} (judul).
+}
 \description{
-Fungsi ini menampilkan seluruh dataset yang terdapat dalam package bpsuseR.
+Fungsi ini menampilkan seluruh dataset yang terdapat dalam paket bpsuseR,
+beserta judulnya seperti yang tertera dalam dokumentasi masing-masing dataset.
+}
+\examples{
+list_bps_data()
+
 }
