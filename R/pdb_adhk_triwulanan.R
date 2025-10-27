@@ -6,7 +6,7 @@
 #' @format Objek time series dengan 62 observasi dan frekuensi triwulanan (4).
 #' @source Badan Pusat Statistik (BPS)
 #' @examples
-#' data("pdb_adhk_triwulanan")
+#' pdb_adhk_triwulanan <- pdb_adhk_triwulanan
 #' plot(pdb_adhk_triwulanan, main = "PDB ADHK Triwulanan Indonesia (2010–2025)",
 #'      ylab = "Miliar Rupiah", xlab = "Tahun")
 "pdb_adhk_triwulanan"
