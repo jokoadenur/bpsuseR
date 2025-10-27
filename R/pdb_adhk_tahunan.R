@@ -6,7 +6,7 @@
 #' @format Objek time series (\code{ts}) frekuensi tahunan (2010–2024).
 #' @source Badan Pusat Statistik (BPS)
 #' @examples
-#' data(pdb_adhk_tahunan)
+#' pdb_adhk_tahunan <- pdb_adhk_tahunan
 #' plot(pdb_adhk_tahunan, main = "PDB ADHK Tahunan Indonesia (2010–2024)",
 #'      ylab = "Miliar Rupiah", xlab = "Tahun")
 "pdb_adhk_tahunan"
