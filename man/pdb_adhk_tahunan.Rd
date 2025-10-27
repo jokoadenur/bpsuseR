@@ -3,9 +3,9 @@
 \docType{data}
 \name{pdb_adhk_tahunan}
 \alias{pdb_adhk_tahunan}
-\title{Produk Domestik Bruto (ADHK) Tahunan Indonesia, 2010–2024}
+\title{Produk Domestik Bruto (ADHK) Tahunan Indonesia, 2010-2024}
 \format{
-Objek time series (\code{ts}) frekuensi tahunan (2010–2024).
+Objek time series (\code{ts}) frekuensi tahunan (2010-2024).
 }
 \source{
 Badan Pusat Statistik (BPS)
@@ -19,7 +19,7 @@ dari tahun 2010 hingga 2024 (dalam miliar rupiah) dalam bentuk deret waktu tahun
 }
 \examples{
 pdb_adhk_tahunan <- pdb_adhk_tahunan
-plot(pdb_adhk_tahunan, main = "PDB ADHK Tahunan Indonesia (2010–2024)",
+plot(pdb_adhk_tahunan, main = "PDB ADHK Tahunan Indonesia (2010-2024)",
      ylab = "Miliar Rupiah", xlab = "Tahun")
 }
 \keyword{datasets}

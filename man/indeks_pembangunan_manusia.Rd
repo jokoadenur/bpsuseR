@@ -3,7 +3,7 @@
 \docType{data}
 \name{indeks_pembangunan_manusia}
 \alias{indeks_pembangunan_manusia}
-\title{Dataset Indeks Pembangunan Manusia (2010–2024) dengan Metode Terbaru}
+\title{Dataset Indeks Pembangunan Manusia (2010-2024) dengan Metode Terbaru}
 \format{
 Objek time series dengan 15 observasi dan frekuensi tahunan (\code{frequency = 1}).
 Nilai mulai dari Tahun 2010 hingga Tahun 2024.

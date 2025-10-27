@@ -3,7 +3,7 @@
 \docType{data}
 \name{tingkat_pengangguran_terbuka}
 \alias{tingkat_pengangguran_terbuka}
-\title{Dataset Tingkat Pengangguran Terbuka (2005–2025)}
+\title{Dataset Tingkat Pengangguran Terbuka (2005-2025)}
 \format{
 Objek time series dengan 41 observasi dan frekuensi dua kali per tahun (\code{frequency = 2}).
 Nilai mulai dari Februari 2005 hingga Februari 2025.
@@ -21,7 +21,7 @@ oleh Badan Pusat Statistik (BPS), dalam satuan persen (\%).
 \examples{
 tingkat_pengangguran_terbuka <- tingkat_pengangguran_terbuka
 plot(
-  tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005–2025)",
+  tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005-2025)",
   ylab = "Persen (\%)", xlab = "Tahun"
 )
 }
