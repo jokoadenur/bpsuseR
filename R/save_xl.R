@@ -11,5 +11,6 @@
 save_xl <- function(dataset) {
   nm_file <- deparse(substitute(dataset))
   write_xlsx(dataset, paste0(nm_file, ".xlsx"))
-  message("✅ Berhasil menyimpan file excel dengan nama: ", nm_file," di folder ",getwd(),"\n")
+  message("✅ Berhasil menyimpan file excel dengan nama: ", nm_file,".xlsx di folder ",getwd(),"\n")
 }
+
