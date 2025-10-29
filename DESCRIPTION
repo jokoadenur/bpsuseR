@@ -1,7 +1,7 @@
 Package: bpsuseR
 Type: Package
 Title: Ready-to-use time series datasets sourced from Badan Pusat Statistik (BPS) Indonesia
-Version: 1.0.0
+Version: 1.1.0
 Authors: @jokoadenur, @flips24
 Description: This package is designed to help researchers, analysts, and students easily access,
     analyze, and visualize macroeconomic, social, and regional indicators such as GDP or GDP (ADHK and ADHB),
@@ -11,7 +11,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
+    writexl
 LazyData: true
 URL: https://github.com/jokoadenur/bpsuseR
 BugReports: https://github.com/jokoadenur/bpsuseR/issues
