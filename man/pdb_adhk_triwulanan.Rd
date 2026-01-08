@@ -19,7 +19,7 @@ dalam miliar rupiah dari Triwulan I 2010 hingga Triwulan II 2025.
 }
 \examples{
 pdb_adhk_triwulanan <- pdb_adhk_triwulanan
-plot(pdb_adhk_triwulanan, main = "PDB ADHK Triwulanan Indonesia (2010-2025)",
-     ylab = "Miliar Rupiah", xlab = "Tahun")
+plot(pdb_adhk_triwulanan$Qtr1, main = "PDB ADHK Triwulanan Indonesia (2010-2025)"
+     )
 }
 \keyword{datasets}
