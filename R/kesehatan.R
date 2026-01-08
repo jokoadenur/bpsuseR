@@ -1,0 +1,45 @@
+#' Dataset Indikator Kesehatan Indonesia (2000–2025)
+#'
+#' Dataset ini memuat berbagai indikator kesehatan penduduk Indonesia yang
+#' disajikan dalam bentuk deret waktu tahunan. Indikator mencakup kondisi
+#' kesehatan penduduk, pemanfaatan layanan kesehatan, persalinan oleh tenaga
+#' kesehatan, cakupan imunisasi balita, serta praktik pemberian ASI.
+#'
+#' Nilai indikator dinyatakan dalam satuan persen (%) untuk sebagian besar
+#' variabel, dan dalam satuan bulan untuk indikator rata-rata pemberian ASI
+#' pada anak usia 24 bulan. Beberapa tahun memiliki nilai tidak tersedia
+#' dan direpresentasikan sebagai \code{NA}.
+#'
+#' @format Sebuah data frame dengan 25 observasi (tahun 2000–2025) dan
+#' 14 variabel:
+#' \describe{
+#'   \item{tahun}{Tahun pengamatan (numeric).}
+#'   \item{keluhan}{Persentase penduduk yang mengalami keluhan kesehatan sebulan terakhir (%).}
+#'   \item{persalinan}{Persentase persalinan ditolong tenaga kesehatan (%).}
+#'   \item{bcg}{Persentase balita yang pernah mendapat imunisasi BCG (%).}
+#'   \item{dpt}{Persentase balita yang pernah mendapat imunisasi DPT (%).}
+#'   \item{polio}{Persentase balita yang pernah mendapat imunisasi Polio (%).}
+#'   \item{campak}{Persentase balita yang pernah mendapat imunisasi Campak (%).}
+#'   \item{asi}{Rata-rata lama anak usia 24 bulan mendapat ASI (bulan).}
+#'   \item{asi_mpasi}{Rata-rata lama anak usia 24 bulan disusui dengan makanan tambahan (bulan).}
+#'   \item{asi_ekskl}{Rata-rata lama anak usia 24 bulan disusui tanpa makanan tambahan (bulan).}
+#'   \item{obati_sendiri}{Persentase penduduk yang mengobati sendiri (%).}
+#'   \item{obat_trad}{Persentase penduduk yang menggunakan obat tradisional (%).}
+#'   \item{rawat_jalan}{Persentase penduduk yang berobat jalan sebulan terakhir (%).}
+#'   \item{rawat_inap}{Persentase penduduk yang rawat inap setahun terakhir (%).}
+#' }
+#'
+#' @source Badan Pusat Statistik (BPS)
+#'
+#' @examples
+#' data(kesehatan)
+#'
+#' plot(
+#'   kesehatan$tahun,
+#'   kesehatan$persalinan,
+#'   type = "l",
+#'   main = "Persentase Persalinan Ditolong Tenaga Kesehatan (2000–2025)",
+#'   xlab = "Tahun",
+#'   ylab = "Persen (%)"
+#' )
+"kesehatan"
