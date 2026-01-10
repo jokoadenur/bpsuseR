@@ -1,16 +1,45 @@
 #' Menyimpan dataset terpilih
 #'
-#' Fungsi ini berguna untuk Menyimpan dataset terpilih di paket bpsuseR
-#' dalam format Excel.
-#' @return File Excel dari dataset dan informasi direktori dari file tersimpan.
-#' @importFrom writexl write_xlsx
+#' Fungsi ini digunakan untuk menyimpan dataset yang tersedia
+#' di paket \pkg{bpsuseR} ke dalam berkas CSV menggunakan fungsi
+#' bawaan R tanpa dependensi tambahan.
+#'
+#' @param dataset Objek data frame atau objek yang dapat
+#'   dikonversi ke data frame.
+#'
+#' @return
+#' File CSV yang tersimpan di direktori tujuan dan pesan
+#' konfirmasi lokasi file.
+#'
 #' @examples
-#' save_xl(tingkat_pengangguran_terbuka)
+#' data(tingkat_pengangguran_terbuka)
+#'
+#' if (interactive()) {
+#'   save_xl(
+#'     tingkat_pengangguran_terbuka,
+#'     path = tempdir()
+#'   )
+#' }
 #'
 #' @export
-save_xl <- function(dataset) {
-  nm_file <- deparse(substitute(dataset))
-  write_xlsx(dataset, paste0(nm_file, ".xlsx"))
-  message("✅ Berhasil menyimpan file excel dengan nama: ", nm_file,".xlsx di folder ",getwd(),"\n")
-}
+save_xl <- function(dataset, path = getwd()) {
+  if (!is.data.frame(dataset)) {
+    dataset <- as.data.frame(dataset)
+  }
 
+  nm_file <- deparse(substitute(dataset))
+  file_out <- file.path(path, paste0(nm_file, ".csv"))
+
+  utils::write.csv(
+    dataset,
+    file = file_out,
+    row.names = FALSE
+  )
+
+  message(
+    "Berhasil menyimpan file: ",
+    normalizePath(file_out, winslash = "/", mustWork = FALSE)
+  )
+
+  invisible(file_out)
+}

@@ -19,10 +19,24 @@ Data ini berisi Tingkat Pengangguran Terbuka (TPT) Indonesia yang dirilis dua ka
 oleh Badan Pusat Statistik (BPS), dalam satuan persen (\%).
 }
 \examples{
-tingkat_pengangguran_terbuka <- tingkat_pengangguran_terbuka
-plot(
-  tingkat_pengangguran_terbuka, main = "Tingkat Pengangguran Terbuka Indonesia (2005-2025)",
-  ylab = "Persen (\%)", xlab = "Tahun"
-)
+data(tingkat_pengangguran_terbuka)
+
+if (interactive()) {
+  plot(
+    tingkat_pengangguran_terbuka$tpt,
+    type = "l",
+    xaxt = "n",
+    xlab = "Periode",
+    ylab = "TPT (\%)",
+    main = "Tingkat Pengangguran Terbuka (Semesteran)"
+  )
+  axis(
+    1,
+    at = seq_along(tingkat_pengangguran_terbuka$bulan),
+    labels = tingkat_pengangguran_terbuka$bulan,
+    las = 2,
+    cex.axis = 0.7
+  )
+}
 }
 \keyword{datasets}

@@ -40,18 +40,20 @@ kesehatan, cakupan imunisasi balita, serta praktik pemberian ASI.
 Nilai indikator dinyatakan dalam satuan persen (\%) untuk sebagian besar
 variabel, dan dalam satuan bulan untuk indikator rata-rata pemberian ASI
 pada anak usia 24 bulan. Beberapa tahun memiliki nilai tidak tersedia
-dan direpresentasikan sebagai \code{NA}.
+dan direpresentasikan sebagai NA.
 }
 \examples{
 data(kesehatan)
 
-plot(
-  kesehatan$tahun,
-  kesehatan$persalinan,
-  type = "l",
-  main = "Persentase Persalinan Ditolong Tenaga Kesehatan (2000–2025)",
-  xlab = "Tahun",
-  ylab = "Persen (\%)"
-)
+if (interactive()) {
+  graphics::plot(
+    x = kesehatan$tahun,
+    y = kesehatan$persalinan,
+    type = "l",
+    main = "Persentase Persalinan Ditolong Tenaga Kesehatan (2000–2025)",
+    xlab = "Tahun",
+    ylab = "Persen (\%)"
+  )
+}
 }
 \keyword{datasets}

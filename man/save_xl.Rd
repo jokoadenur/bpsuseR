@@ -4,16 +4,29 @@
 \alias{save_xl}
 \title{Menyimpan dataset terpilih}
 \usage{
-save_xl(dataset)
+save_xl(dataset, path = getwd())
+}
+\arguments{
+\item{dataset}{Objek data frame atau objek yang dapat
+dikonversi ke data frame.}
 }
 \value{
-File Excel dari dataset dan informasi direktori dari file tersimpan.
+File CSV yang tersimpan di direktori tujuan dan pesan
+konfirmasi lokasi file.
 }
 \description{
-Fungsi ini berguna untuk Menyimpan dataset terpilih di paket bpsuseR
-dalam format Excel.
+Fungsi ini digunakan untuk menyimpan dataset yang tersedia
+di paket \pkg{bpsuseR} ke dalam berkas CSV menggunakan fungsi
+bawaan R tanpa dependensi tambahan.
 }
 \examples{
-save_xl(tingkat_pengangguran_terbuka)
+data(tingkat_pengangguran_terbuka)
+
+if (interactive()) {
+  save_xl(
+    tingkat_pengangguran_terbuka,
+    path = tempdir()
+  )
+}
 
 }

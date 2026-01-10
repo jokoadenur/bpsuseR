@@ -1,27 +1,22 @@
 Package: bpsuseR
 Type: Package
-
-Title: Ready-to-use time series datasets sourced from Badan Pusat Statistik (BPS) Indonesia
-Version: 1.1.0
-Authors: @jokoadenur, @flips24
-Description: This package is designed to help researchers, analysts, and students easily access,
-    analyze, and visualize macroeconomic, social, and regional indicators such as GDP or GDP (ADHK and ADHB),
-    inflation, population, and other statistical data.
 Title: Ready-to-use Time Series Datasets from Badan Pusat Statistik (BPS) Indonesia
-Version: 1.0.0
-Authors@R: c(person("Joko Ade", "Nursiyono", email = "jokoadenursiyono@gmail.com", role = c("aut","cre")), person("flips24", role="ctb"))
-Description: Provides convenient access to ready-to-use time series datasets from Badan Pusat Statistik (BPS) Indonesia. This package helps researchers, analysts, and students easily access, analyze, and visualize macroeconomic, social, and regional indicators such as GDP (ADHK and ADHB), inflation, population, and other statistical data.
-
+Version: 1.1.0
+Authors@R: c(person("Joko Ade", "Nursiyono", email = "jokoadenursiyono@gmail.com", role = c("aut", "cre")),
+             person("flips24", role = "ctb"))
+Description: Provides convenient access to ready-to-use time series datasets
+    from Badan Pusat Statistik (BPS) Indonesia. This package helps researchers,
+    analysts, and students easily access, analyze, and visualize macroeconomic,
+    social, and regional indicators such as GDP (ADHK and ADHB), inflation,
+    population, and other statistical data.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    writexl
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-
-Depends: 
-    R (>= 2.10),
-    writexl
-Depends: R (>= 3.5.0)
-
-LazyData: true
 URL: https://github.com/jokoadenur/bpsuseR
 BugReports: https://github.com/jokoadenur/bpsuseR/issues

@@ -2,4 +2,3 @@
 
 export(list_bps_data)
 export(save_xl)
-importFrom(writexl,write_xlsx)

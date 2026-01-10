@@ -17,12 +17,11 @@ anak_tidak_sekolah
 }
 \description{
 Data ini berisi Angka Anak Tidak Sekolah Menurut Jenjang Pendidikan dan Jenis Kelamin
-Indonesia yang dirilis oleh Badan Pusat Statistik (BPS), dalam satuan persen (%).
+Indonesia yang dirilis oleh Badan Pusat Statistik (BPS), dalam satuan persen (\%).
 }
 \examples{
-tidak_sekolah_sd <- anak_tidak_sekolah \%>\% select(contains(c("tahun", "sd")))
 plot(
-  tidak_sekolah_sd, main = "Angka Anak Tidak Sekolah Indonesia - Jenjang SD (2019-2023)",
+  anak_tidak_sekolah[,2], main = "Angka Anak Tidak Sekolah Indonesia - Jenjang SD (2019-2023)",
   ylab = "Persen (\%)", xlab = "Tahun"
 )
 }

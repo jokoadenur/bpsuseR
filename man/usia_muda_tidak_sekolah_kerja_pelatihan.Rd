@@ -18,7 +18,7 @@ usia_muda_tidak_sekolah_kerja_pelatihan
 \description{
 Data ini berisi Persentase Usia Muda (15-24 Tahun) Yang Sedang Tidak Sekolah,
 Bekerja Atau Mengikuti Pelatihan di Indonesia yang dirilis sekali per tahun
-oleh Badan Pusat Statistik (BPS), dalam satuan persen (%).
+oleh Badan Pusat Statistik (BPS), dalam satuan persen (\%).
 }
 \examples{
 dt <- usia_muda_tidak_sekolah_kerja_pelatihan

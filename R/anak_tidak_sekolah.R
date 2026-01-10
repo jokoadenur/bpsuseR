@@ -10,9 +10,8 @@
 #' @source Badan Pusat Statistik (BPS)
 #'
 #' @examples
-#' tidak_sekolah_sd <- anak_tidak_sekolah %>% select(contains(c("tahun", "sd")))
 #' plot(
-#'   tidak_sekolah_sd, main = "Angka Anak Tidak Sekolah Indonesia - Jenjang SD (2019-2023)",
+#'   anak_tidak_sekolah[,2], main = "Angka Anak Tidak Sekolah Indonesia - Jenjang SD (2019-2023)",
 #'   ylab = "Persen (%)", xlab = "Tahun"
 #' )
 "anak_tidak_sekolah"
