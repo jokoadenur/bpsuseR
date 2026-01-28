@@ -1,0 +1,76 @@
+#' Luas Panen, Produktivitas, dan Produksi Padi Menurut Provinsi (2018–2024)
+#'
+#' Dataset ini menyajikan informasi luas panen, produktivitas, dan produksi
+#' padi menurut provinsi di Indonesia. Data disajikan dalam bentuk deret waktu
+#' tahunan untuk masing-masing provinsi pada periode 2018–2024.
+#'
+#' Luas panen padi sejak tahun 2018 diukur menggunakan metode
+#' \emph{Kerangka Sampel Area} (KSA). Produktivitas padi diperoleh melalui
+#' \emph{Survei Ubinan} dengan ukuran petak ubinan 2,5 m x 2,5 m.
+#'
+#' Hasil pengukuran ubinan dicatat dalam bentuk produksi
+#' \emph{Gabah Kering Panen} (GKP), kemudian dikonversikan menjadi
+#' \emph{Gabah Kering Giling} (GKG) berdasarkan angka konversi GKP ke GKG
+#' yang bersumber dari \emph{Survei Konversi Gabah ke Beras Tahun 2018}.
+#'
+#' Produksi padi merupakan hasil perkalian antara luas panen dan produktivitas,
+#' dinyatakan dalam satuan ton GKG.
+#'
+#' @format Sebuah tibble dengan 39 observasi (provinsi) dan 22 variabel:
+#' \describe{
+#'   \item{Provinsi}{Nama provinsi di Indonesia (character).}
+#'   \item{luaspanen2018}{Luas panen padi tahun 2018 (hektar).}
+#'   \item{luaspanen2019}{Luas panen padi tahun 2019 (hektar).}
+#'   \item{luaspanen2020}{Luas panen padi tahun 2020 (hektar).}
+#'   \item{luaspanen2021}{Luas panen padi tahun 2021 (hektar).}
+#'   \item{luaspanen2022}{Luas panen padi tahun 2022 (hektar).}
+#'   \item{luaspanen2023}{Luas panen padi tahun 2023 (hektar).}
+#'   \item{luaspanen2024}{Luas panen padi tahun 2024 (hektar).}
+#'   \item{produktivitas2018}{Produktivitas padi tahun 2018 (kuintal GKG per hektar).}
+#'   \item{produktivitas2019}{Produktivitas padi tahun 2019 (kuintal GKG per hektar).}
+#'   \item{produktivitas2020}{Produktivitas padi tahun 2020 (kuintal GKG per hektar).}
+#'   \item{produktivitas2021}{Produktivitas padi tahun 2021 (kuintal GKG per hektar).}
+#'   \item{produktivitas2022}{Produktivitas padi tahun 2022 (kuintal GKG per hektar).}
+#'   \item{produktivitas2023}{Produktivitas padi tahun 2023 (kuintal GKG per hektar).}
+#'   \item{produktivitas2024}{Produktivitas padi tahun 2024 (kuintal GKG per hektar).}
+#'   \item{produksi2018}{Produksi padi tahun 2018 (ton GKG).}
+#'   \item{produksi2019}{Produksi padi tahun 2019 (ton GKG).}
+#'   \item{produksi2020}{Produksi padi tahun 2020 (ton GKG).}
+#'   \item{produksi2021}{Produksi padi tahun 2021 (ton GKG).}
+#'   \item{produksi2022}{Produksi padi tahun 2022 (ton GKG).}
+#'   \item{produksi2023}{Produksi padi tahun 2023 (ton GKG).}
+#'   \item{produksi2024}{Produksi padi tahun 2024 (ton GKG).}
+#' }
+#'
+#' @source Badan Pusat Statistik (BPS):
+#' \itemize{
+#'   \item Kerangka Sampel Area (KSA) Tanaman Padi
+#'   \item Survei Ubinan Tanaman Padi
+#'   \item Survei Konversi Gabah ke Beras Tahun 2018
+#' }
+#'
+#' @examples
+#' data(data_padi)
+#'
+#' if (interactive()) {
+#'   provinsi_jatim <- subset(
+#'     data_padi,
+#'     Provinsi == "Jawa Timur"
+#'   )
+#'
+#'   tahun <- 2018:2024
+#'   produksi <- as.numeric(provinsi_jatim[
+#'     1,
+#'     grep("^produksi", names(provinsi_jatim))
+#'   ])
+#'
+#'   graphics::plot(
+#'     x = tahun,
+#'     y = produksi,
+#'     type = "l",
+#'     main = "Produksi Padi Jawa Timur",
+#'     xlab = "Tahun",
+#'     ylab = "Produksi (ton GKG)"
+#'   )
+#' }
+"data_padi"
